@@ -13,7 +13,7 @@ from db_helper import db_helper
 from db_models import db_models
 from middlewares import require_api_key
 
-
+#adding a comment
 app = Flask(__name__)
 
 app.config['TEMP_UPLOAD_FOLDER'] = f"{get_root_dir()}/temp/uploads"
